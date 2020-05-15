@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="39.538" height="220" viewBox="0 0 39.538 220">
+  <g id="组_20802" data-name="组 20802" transform="translate(-53 -172.144)">
+    <g id="组_7496" data-name="组 7496" transform="translate(82.507 185.052)" style="isolation: isolate">
+      <line id="直线_33" data-name="直线 33" x2="5.401" transform="translate(0 190.634)" fill="none" stroke="#017afc" stroke-width="3"/>
+      <line id="直线_33-2" data-name="直线 33" x2="5.401" transform="translate(0 179.696)" fill="none" stroke="#017afc" stroke-width="3"/>
+      <line id="直线_33-3" data-name="直线 33" x2="5.401" transform="translate(0 170.32)" fill="none" stroke="#017afc" stroke-width="3"/>
+      <line id="直线_33-4" data-name="直线 33" x2="5.401" transform="translate(0 160.945)" fill="none" stroke="#017afc" stroke-width="3"/>
+      <line id="直线_33-5" data-name="直线 33" x2="10.03" transform="translate(0 150.007)" fill="none" stroke="#017afc" stroke-width="3"/>
+      <line id="直线_39" data-name="直线 39" x2="10.03" transform="translate(0 200.289)" fill="none" stroke="#017afc" stroke-width="3"/>
+      <line id="直线_33-6" data-name="直线 33" x2="5.401" transform="translate(0 140.632)" fill="none" stroke="#017afc" stroke-width="3"/>
+      <line id="直线_33-7" data-name="直线 33" x2="5.401" transform="translate(0 129.694)" fill="none" stroke="#017afc" stroke-width="3"/>
+      <line id="直线_33-8" data-name="直线 33" x2="5.401" transform="translate(0 120.318)" fill="none" stroke="#017afc" stroke-width="3"/>
+      <line id="直线_33-9" data-name="直线 33" x2="5.401" transform="translate(0 110.943)" fill="none" stroke="#017afc" stroke-width="3"/>
+      <line id="直线_33-10" data-name="直线 33" x2="10.03" transform="translate(0 100.005)" fill="none" stroke="#017afc" stroke-width="3"/>
+      <line id="直线_33-11" data-name="直线 33" x2="5.401" transform="translate(0 90.629)" fill="none" stroke="#017afc" stroke-width="3"/>
+      <line id="直线_33-12" data-name="直线 33" x2="5.401" transform="translate(0 79.691)" fill="none" stroke="#017afc" stroke-width="3"/>
+      <line id="直线_33-13" data-name="直线 33" x2="5.401" transform="translate(0 70.316)" fill="none" stroke="#017afc" stroke-width="3"/>
+      <line id="直线_33-14" data-name="直线 33" x2="5.401" transform="translate(0 60.941)" fill="none" stroke="#017afc" stroke-width="3"/>
+      <line id="直线_33-15" data-name="直线 33" x2="10.03" transform="translate(0 50.002)" fill="none" stroke="#017afc" stroke-width="3"/>
+      <line id="直线_33-16" data-name="直线 33" x2="5.401" transform="translate(0 40.627)" fill="none" stroke="#017afc" stroke-width="3"/>
+      <line id="直线_33-17" data-name="直线 33" x2="5.401" transform="translate(0 29.689)" fill="none" stroke="#017afc" stroke-width="3"/>
+      <line id="直线_33-18" data-name="直线 33" x2="5.401" transform="translate(0 20.314)" fill="none" stroke="#017afc" stroke-width="3"/>
+      <line id="直线_33-19" data-name="直线 33" x2="5.401" transform="translate(0 9.375)" fill="none" stroke="#017afc" stroke-width="3"/>
+      <line id="直线_33-20" data-name="直线 33" x2="10.03" transform="translate(0 0)" fill="none" stroke="#017afc" stroke-width="3"/>
+    </g>
+    <text id="_0" data-name="0" transform="translate(63 389.144)" fill="#017afc" font-size="12" font-family="ArialMT, Arial"><tspan x="0" y="0">0</tspan></text>
+    <text id="_25" data-name="25" transform="translate(57 338.144)" fill="#017afc" font-size="12" font-family="ArialMT, Arial"><tspan x="0" y="0">25</tspan></text>
+    <text id="_50" data-name="50" transform="translate(57 286.144)" fill="#017afc" font-size="12" font-family="ArialMT, Arial"><tspan x="0" y="0">50</tspan></text>
+    <text id="_75" data-name="75" transform="translate(57 235.144)" fill="#017afc" font-size="12" font-family="ArialMT, Arial"><tspan x="0" y="0">75</tspan></text>
+    <text id="_100" data-name="100" transform="translate(53 183.144)" fill="#017afc" font-size="12" font-family="ArialMT, Arial"><tspan x="0" y="0">100</tspan></text>
+  </g>
+</svg>

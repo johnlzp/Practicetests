@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-teststronge/Pods-teststronge-resources.sh
+${PODS_CONFIGURATION_BUILD_DIR}/BraintreeDropIn/Braintree-UIKit-Localization.bundle
+${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle
+${PODS_ROOT}/TZImagePickerController/TZImagePickerController/TZImagePickerController/TZImagePickerController.bundle
