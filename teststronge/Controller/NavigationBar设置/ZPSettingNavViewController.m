@@ -11,13 +11,16 @@
 @interface ZPSettingNavViewController ()<UIGestureRecognizerDelegate>
 @property (nonatomic,strong)UIView *navView;
 @property (nonatomic,strong)UILabel *titleLabel;
+@property (nonatomic,strong)NSMutableArray *arrays;
 @end
 
 @implementation ZPSettingNavViewController  
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.navigationController.navigationBar.translucent = YES;
+//    self.navigationController.navigationBar.translucent = YES;
+    
+    
 //    self.edgesForExtendedLayout = UIRectEdgeNone; 
 //    self.navigationController.navigationBar.barTintColor = [UIColor yellowColor];
 //    [self.transitionCoordinator animateAlongsideTransition:^(id<UIViewControllerTransitionCoordinatorContext>  _Nonnull context) {
@@ -28,7 +31,20 @@
 //    self.navigationController.interactivePopGestureRecognizer.delegate = self;
 //    [self.navigationController.navigationBar setBackgroundImage:[UIImage new] forBarMetrics:UIBarMetricsDefault];
     [self configView];
-    self.view.backgroundColor = [UIColor redColor];
+//    self.view.backgroundColor = [UIColor redColor];
+    [self.navigationController.navigationBar navBarBackGroundColor:[UIColor redColor] image:[UIImage new] isOpaque:YES];
+    self.arrays = [NSMutableArray arrayWithArray:@[@"a",@"b"]];
+    [self.arrays addObjectsFromArray:@[@"c"]];
+    NSLog(@"%@",self.arrays);
+    
+    NSMutableDictionary *dict = [NSMutableDictionary dictionary];
+    [dict setObject:1 forKey:@"a"];
+    NSArray *arr
+    for (int a in arr) {
+        
+    }
+
+//    dict
     
 }
 

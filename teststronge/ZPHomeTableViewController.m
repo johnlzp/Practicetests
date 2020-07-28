@@ -22,6 +22,7 @@
 #import "ZPRunloopViewController.h"
 #import "ZPBezierTestViewController.h"
 #import "ZPQRcodeViewController.h"
+#import "differentDirectionsVc.h"
 #import "ViewController.h"
 @interface ZPHomeTableViewController ()
 @property (nonatomic,strong)NSArray *array;
@@ -48,7 +49,8 @@
                    @"GCD相关",
                    @"RunLoop",
                    @"贝塞尔曲线和水波动画",
-                   @"QRCode"];
+                   @"QRCode",
+                   @"不同方向的弹窗"];
 }
 
 #pragma mark - Table view data source
@@ -171,6 +173,11 @@
            [self.navigationController pushViewController:vc animated:YES];
        }
            break;
+        case 16:
+        {
+            differentDirectionsVc *vc = [differentDirectionsVc new];
+            [self.navigationController pushViewController:vc animated:YES];
+        }
             
         default:
             break;

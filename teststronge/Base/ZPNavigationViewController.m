@@ -16,8 +16,8 @@
 
 + (void)load{
     UINavigationBar *bar = [UINavigationBar appearanceWhenContainedInInstancesOfClasses:@[self]];
-    [bar setBackgroundImage:[UIImage new] forBarMetrics:UIBarMetricsDefault];
-//    [bar setShadowImage:[UIImage new]];
+//    [bar setBackgroundImage:[UIImage new] forBarMetrics:UIBarMetricsDefault];
+//    [bar setBackgroundImage:[UIImage gxz_imageWithColor:[UIColor redColor]] forBarMetrics:UIBarMetricsDefault];
     [bar setShadowImage:[UIImage gxz_imageWithColor:[UIColor colorWithHexString:@"#D7D7D7"]]];
     NSMutableDictionary *dict = [NSMutableDictionary dictionary];
     dict[NSFontAttributeName] = [UIFont boldSystemFontOfSize:18];
@@ -47,8 +47,8 @@
         [button setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
         [button setTitleColor:[UIColor redColor] forState:UIControlStateHighlighted];
         [button addTarget:self action:@selector(click) forControlEvents:UIControlEventTouchUpInside];
-        [button setImage:[UIImage imageNamed:@"sign_exchange"] forState:UIControlStateNormal];
-        [button setImage:[UIImage imageNamed:@"sign_exchange"] forState:UIControlStateHighlighted];
+        [button setImage:[UIImage imageNamed:@"img_navigationBar_leftBlackback"] forState:UIControlStateNormal];
+        [button setImage:[UIImage imageNamed:@"img_navigationBar_leftBlackback"] forState:UIControlStateHighlighted];
         //重新覆盖逻辑
         button.size = CGSizeMake(44, 44);
         button.contentHorizontalAlignment=

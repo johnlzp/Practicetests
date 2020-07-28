@@ -101,6 +101,11 @@
 		4CF1705923ACB7A20000FF49 /* ZPTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF1705823ACB7A20000FF49 /* ZPTableView.m */; };
 		4CF1705F23ACD25B0000FF49 /* ZPDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF1705E23ACD25B0000FF49 /* ZPDemoViewController.m */; };
 		4CF70AD523B9EAA100E68C80 /* ZPAttribuiteLabelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF70AD423B9EAA100E68C80 /* ZPAttribuiteLabelViewController.m */; };
+		5E1EF23A24750E6E0017816B /* differentDirectionsVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E1EF23824750E6E0017816B /* differentDirectionsVc.m */; };
+		5E1EF23B24750E6E0017816B /* differentDirectionsVc.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E1EF23924750E6E0017816B /* differentDirectionsVc.xib */; };
+		5E1EF23E24750EBC0017816B /* ZPBottomPopupView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E1EF23D24750EBC0017816B /* ZPBottomPopupView.m */; };
+		5E1EF241247519DF0017816B /* ZPTestbottomPopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E1EF240247519DE0017816B /* ZPTestbottomPopView.m */; };
+		5E48458524B6C77500047C92 /* UINavigationBar+handle.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E48458324B6C77500047C92 /* UINavigationBar+handle.m */; };
 		E4180AC949F36D02B396C153 /* libPods-teststronge.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B5C48626ABB2AFDE07E6D003 /* libPods-teststronge.a */; };
 /* End PBXBuildFile section */
 
@@ -303,6 +308,15 @@
 		4CF30BF423D2E61C00906ED9 /* libAFNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libAFNetworking.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CF70AD323B9EAA100E68C80 /* ZPAttribuiteLabelViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZPAttribuiteLabelViewController.h; sourceTree = "<group>"; };
 		4CF70AD423B9EAA100E68C80 /* ZPAttribuiteLabelViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZPAttribuiteLabelViewController.m; sourceTree = "<group>"; };
+		5E1EF23724750E6E0017816B /* differentDirectionsVc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = differentDirectionsVc.h; sourceTree = "<group>"; };
+		5E1EF23824750E6E0017816B /* differentDirectionsVc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = differentDirectionsVc.m; sourceTree = "<group>"; };
+		5E1EF23924750E6E0017816B /* differentDirectionsVc.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = differentDirectionsVc.xib; sourceTree = "<group>"; };
+		5E1EF23C24750EBC0017816B /* ZPBottomPopupView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZPBottomPopupView.h; sourceTree = "<group>"; };
+		5E1EF23D24750EBC0017816B /* ZPBottomPopupView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZPBottomPopupView.m; sourceTree = "<group>"; };
+		5E1EF23F247519DE0017816B /* ZPTestbottomPopView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZPTestbottomPopView.h; sourceTree = "<group>"; };
+		5E1EF240247519DE0017816B /* ZPTestbottomPopView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZPTestbottomPopView.m; sourceTree = "<group>"; };
+		5E48458324B6C77500047C92 /* UINavigationBar+handle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+handle.m"; sourceTree = "<group>"; };
+		5E48458424B6C77500047C92 /* UINavigationBar+handle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+handle.h"; sourceTree = "<group>"; };
 		B5C48626ABB2AFDE07E6D003 /* libPods-teststronge.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-teststronge.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7E854EBE70D674EAF59BB66 /* Pods-teststronge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-teststronge.release.xcconfig"; path = "Target Support Files/Pods-teststronge/Pods-teststronge.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -353,13 +367,13 @@
 			path = RunLoop;
 			sourceTree = "<group>";
 		};
-		4C14085423337DD0009B9DEE /* 自定义弹窗 */ = {
+		4C14085423337DD0009B9DEE /* 自定义选择弹窗 */ = {
 			isa = PBXGroup;
 			children = (
 				4C14085523337E06009B9DEE /* ZPCustomAlertView.h */,
 				4C14085623337E06009B9DEE /* ZPCustomAlertView.m */,
 			);
-			path = "自定义弹窗";
+			path = "自定义选择弹窗";
 			sourceTree = "<group>";
 		};
 		4C1812D6243ECC26002BE678 /* SGQRCode */ = {
@@ -741,6 +755,7 @@
 		4C7E47ED2331FC0B00FA4486 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				5E1EF23624750E3A0017816B /* 不同方向的弹窗 */,
 				4C1812ED243ECC6B002BE678 /* QRCode */,
 				4C73DDBA240F4BAC0094AF63 /* 贝塞尔曲线和水波动画 */,
 				4C107A65240647A100FBD5E7 /* RunLoop */,
@@ -772,8 +787,9 @@
 		4C7E47EF2331FC1A00FA4486 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				5E1EF23524750E180017816B /* 不同方向的弹窗 */,
 				4CE32410233DD74C001A9ED8 /* Loding */,
-				4C14085423337DD0009B9DEE /* 自定义弹窗 */,
+				4C14085423337DD0009B9DEE /* 自定义选择弹窗 */,
 				4C7E47FD23321DEB00FA4486 /* Totast */,
 				4C7E47F32331FD2600FA4486 /* 自定义滚动菜单 */,
 			);
@@ -792,6 +808,7 @@
 		4C7E47F52331FDEB00FA4486 /* Categorty */ = {
 			isa = PBXGroup;
 			children = (
+				5E48457F24B6C5EE00047C92 /* UINavigationBar */,
 				4C51573823CD6BA7007FEF90 /* NSLayoutConstraint */,
 				4C51572D23CD6BA7007FEF90 /* UIBarButtonItem */,
 				4C51573323CD6BA7007FEF90 /* UIButton */,
@@ -946,6 +963,36 @@
 			path = "富文本label";
 			sourceTree = "<group>";
 		};
+		5E1EF23524750E180017816B /* 不同方向的弹窗 */ = {
+			isa = PBXGroup;
+			children = (
+				5E1EF23C24750EBC0017816B /* ZPBottomPopupView.h */,
+				5E1EF23D24750EBC0017816B /* ZPBottomPopupView.m */,
+			);
+			path = "不同方向的弹窗";
+			sourceTree = "<group>";
+		};
+		5E1EF23624750E3A0017816B /* 不同方向的弹窗 */ = {
+			isa = PBXGroup;
+			children = (
+				5E1EF23724750E6E0017816B /* differentDirectionsVc.h */,
+				5E1EF23824750E6E0017816B /* differentDirectionsVc.m */,
+				5E1EF23924750E6E0017816B /* differentDirectionsVc.xib */,
+				5E1EF23F247519DE0017816B /* ZPTestbottomPopView.h */,
+				5E1EF240247519DE0017816B /* ZPTestbottomPopView.m */,
+			);
+			path = "不同方向的弹窗";
+			sourceTree = "<group>";
+		};
+		5E48457F24B6C5EE00047C92 /* UINavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				5E48458424B6C77500047C92 /* UINavigationBar+handle.h */,
+				5E48458324B6C77500047C92 /* UINavigationBar+handle.m */,
+			);
+			path = UINavigationBar;
+			sourceTree = "<group>";
+		};
 		7D5DB3A60CFE5C98AC10F324 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -1078,6 +1125,7 @@
 				4CCFDCE824347504000A827F /* ruler.svg in Resources */,
 				4C49555E23CC67F2003A324B /* ZPRoundConerTableViewCell.xib in Resources */,
 				4C140853233376EC009B9DEE /* zan.png in Resources */,
+				5E1EF23B24750E6E0017816B /* differentDirectionsVc.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1183,6 +1231,7 @@
 				4C1812EB243ECC26002BE678 /* SGQRCodeGenerateManager.m in Sources */,
 				4CDA41F023A2304000F1A477 /* UILabel+ZPExtension.m in Sources */,
 				4C51574023CD6BA7007FEF90 /* UIButton+ZPExtension.m in Sources */,
+				5E1EF23E24750EBC0017816B /* ZPBottomPopupView.m in Sources */,
 				4C7E47F92331FE1800FA4486 /* UIView+Extension.m in Sources */,
 				4C1812EC243ECC26002BE678 /* SGQRCodeAlbumManager.m in Sources */,
 				4CDA41EA23A2240B00F1A477 /* YLWaterFlowLayout_Bug.m in Sources */,
@@ -1192,6 +1241,7 @@
 				4CF1705623AC7BD50000FF49 /* ZPNestedViewController.m in Sources */,
 				4C8B060023CF01FC00AE8A4A /* ZPSettingNavDemo2VC.m in Sources */,
 				4CD51E1523D4531E009E238B /* ZPCaculateMaker.m in Sources */,
+				5E1EF23A24750E6E0017816B /* differentDirectionsVc.m in Sources */,
 				4C51570723CD6B3C007FEF90 /* ZPNavigationViewController.m in Sources */,
 				4C51573E23CD6BA7007FEF90 /* UIBarButtonItem+ZPExtension.m in Sources */,
 				4C51572B23CD6B9D007FEF90 /* NSString+ZPExtension.m in Sources */,
@@ -1212,6 +1262,7 @@
 				4CE32413233DD75D001A9ED8 /* ZPLodingView.m in Sources */,
 				4C51574223CD6BA7007FEF90 /* NSLayoutConstraint+ZPIBDesignable.m in Sources */,
 				4C49555023CC52ED003A324B /* XMEngine.m in Sources */,
+				5E1EF241247519DF0017816B /* ZPTestbottomPopView.m in Sources */,
 				4CD68195244855900076B121 /* ZPTouchTwoViewController.m in Sources */,
 				4CC94C0723B7247300F15A20 /* ZPTreeTableViewController.m in Sources */,
 				4C49544C23CC4098003A324B /* ZPBrainTreeVC.m in Sources */,
@@ -1235,6 +1286,7 @@
 				4C51572423CD6B9D007FEF90 /* UISearchBar+JCSearchBarPlaceholder.m in Sources */,
 				4C74C2F723C84A420094BEAE /* ZPGreenView.m in Sources */,
 				4C74C2FD23C8506A0094BEAE /* ZPHomeTableViewController.m in Sources */,
+				5E48458524B6C77500047C92 /* UINavigationBar+handle.m in Sources */,
 				4C51573F23CD6BA7007FEF90 /* UIImage+image.m in Sources */,
 				4CC94C0A23B7299B00F15A20 /* ZPTreeTableViewCell.m in Sources */,
 			);

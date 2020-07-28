@@ -30,21 +30,22 @@
     self.navView.backgroundColor = [UIColor yellowColor];
     [self.view addSubview:self.navView];
     
+    [self.navigationController.navigationBar navBarBackGroundColor:[UIColor yellowColor] image:[UIImage new] isOpaque:YES];
 }
 
-- (void)viewWillAppear:(BOOL)animated{
-    [super viewWillAppear:animated];
-    if (self.isTransparent) {
-        [self.navigationController setNavigationBarHidden:YES animated:YES];
-    }
-}
-
-- (void)viewWillDisappear:(BOOL)animated{
-    [super viewWillDisappear:animated];
-    if (self.isTransparent) {
-        [self.navigationController setNavigationBarHidden:NO animated:YES];
-    }
-}
+//- (void)viewWillAppear:(BOOL)animated{
+//    [super viewWillAppear:animated];
+//    if (self.isTransparent) {
+//        [self.navigationController setNavigationBarHidden:YES animated:YES];
+//    }
+//}
+//
+//- (void)viewWillDisappear:(BOOL)animated{
+//    [super viewWillDisappear:animated];
+//    if (self.isTransparent) {
+//        [self.navigationController setNavigationBarHidden:NO animated:YES];
+//    }
+//}
 
 - (void)btnClick:(UIButton *)btn{
     
