@@ -37,12 +37,7 @@
     [self.arrays addObjectsFromArray:@[@"c"]];
     NSLog(@"%@",self.arrays);
     
-    NSMutableDictionary *dict = [NSMutableDictionary dictionary];
-    [dict setObject:1 forKey:@"a"];
-    NSArray *arr
-    for (int a in arr) {
-        
-    }
+
 
 //    dict
     

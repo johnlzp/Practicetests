@@ -101,6 +101,10 @@
 		4CF1705923ACB7A20000FF49 /* ZPTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF1705823ACB7A20000FF49 /* ZPTableView.m */; };
 		4CF1705F23ACD25B0000FF49 /* ZPDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF1705E23ACD25B0000FF49 /* ZPDemoViewController.m */; };
 		4CF70AD523B9EAA100E68C80 /* ZPAttribuiteLabelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF70AD423B9EAA100E68C80 /* ZPAttribuiteLabelViewController.m */; };
+		5E0C7BC7251B878E0087E448 /* ZPExcelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E0C7BC6251B878E0087E448 /* ZPExcelViewController.m */; };
+		5E15683E251F27A9008A7501 /* ZPExcelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E15683D251F27A9008A7501 /* ZPExcelCell.m */; };
+		5E156841251F6F8D008A7501 /* ZPVipRecorderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E156840251F6F8D008A7501 /* ZPVipRecorderCell.m */; };
+		5E156844251F8380008A7501 /* ZPBallResultScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E156843251F8380008A7501 /* ZPBallResultScrollView.m */; };
 		5E1EF23A24750E6E0017816B /* differentDirectionsVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E1EF23824750E6E0017816B /* differentDirectionsVc.m */; };
 		5E1EF23B24750E6E0017816B /* differentDirectionsVc.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E1EF23924750E6E0017816B /* differentDirectionsVc.xib */; };
 		5E1EF23E24750EBC0017816B /* ZPBottomPopupView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E1EF23D24750EBC0017816B /* ZPBottomPopupView.m */; };
@@ -309,6 +313,14 @@
 		4CF30BF423D2E61C00906ED9 /* libAFNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libAFNetworking.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CF70AD323B9EAA100E68C80 /* ZPAttribuiteLabelViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZPAttribuiteLabelViewController.h; sourceTree = "<group>"; };
 		4CF70AD423B9EAA100E68C80 /* ZPAttribuiteLabelViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZPAttribuiteLabelViewController.m; sourceTree = "<group>"; };
+		5E0C7BC5251B878E0087E448 /* ZPExcelViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZPExcelViewController.h; sourceTree = "<group>"; };
+		5E0C7BC6251B878E0087E448 /* ZPExcelViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZPExcelViewController.m; sourceTree = "<group>"; };
+		5E15683C251F27A9008A7501 /* ZPExcelCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZPExcelCell.h; sourceTree = "<group>"; };
+		5E15683D251F27A9008A7501 /* ZPExcelCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZPExcelCell.m; sourceTree = "<group>"; };
+		5E15683F251F6F8D008A7501 /* ZPVipRecorderCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZPVipRecorderCell.h; sourceTree = "<group>"; };
+		5E156840251F6F8D008A7501 /* ZPVipRecorderCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZPVipRecorderCell.m; sourceTree = "<group>"; };
+		5E156842251F8380008A7501 /* ZPBallResultScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZPBallResultScrollView.h; sourceTree = "<group>"; };
+		5E156843251F8380008A7501 /* ZPBallResultScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZPBallResultScrollView.m; sourceTree = "<group>"; };
 		5E1EF23724750E6E0017816B /* differentDirectionsVc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = differentDirectionsVc.h; sourceTree = "<group>"; };
 		5E1EF23824750E6E0017816B /* differentDirectionsVc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = differentDirectionsVc.m; sourceTree = "<group>"; };
 		5E1EF23924750E6E0017816B /* differentDirectionsVc.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = differentDirectionsVc.xib; sourceTree = "<group>"; };
@@ -760,6 +772,7 @@
 		4C7E47ED2331FC0B00FA4486 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				5E0C7BC2251B874F0087E448 /* Excel表格 */,
 				5E1EF23624750E3A0017816B /* 不同方向的弹窗 */,
 				4C1812ED243ECC6B002BE678 /* QRCode */,
 				4C73DDBA240F4BAC0094AF63 /* 贝塞尔曲线和水波动画 */,
@@ -966,6 +979,21 @@
 				4CF70AD423B9EAA100E68C80 /* ZPAttribuiteLabelViewController.m */,
 			);
 			path = "富文本label";
+			sourceTree = "<group>";
+		};
+		5E0C7BC2251B874F0087E448 /* Excel表格 */ = {
+			isa = PBXGroup;
+			children = (
+				5E0C7BC5251B878E0087E448 /* ZPExcelViewController.h */,
+				5E0C7BC6251B878E0087E448 /* ZPExcelViewController.m */,
+				5E15683F251F6F8D008A7501 /* ZPVipRecorderCell.h */,
+				5E156840251F6F8D008A7501 /* ZPVipRecorderCell.m */,
+				5E15683C251F27A9008A7501 /* ZPExcelCell.h */,
+				5E15683D251F27A9008A7501 /* ZPExcelCell.m */,
+				5E156842251F8380008A7501 /* ZPBallResultScrollView.h */,
+				5E156843251F8380008A7501 /* ZPBallResultScrollView.m */,
+			);
+			path = "Excel表格";
 			sourceTree = "<group>";
 		};
 		5E1EF23524750E180017816B /* 不同方向的弹窗 */ = {
@@ -1245,6 +1273,7 @@
 				4C49555223CC52ED003A324B /* XMRequest.m in Sources */,
 				4C51572C23CD6B9D007FEF90 /* UIImageView+maskLayer.m in Sources */,
 				4CF1705623AC7BD50000FF49 /* ZPNestedViewController.m in Sources */,
+				5E156844251F8380008A7501 /* ZPBallResultScrollView.m in Sources */,
 				4C8B060023CF01FC00AE8A4A /* ZPSettingNavDemo2VC.m in Sources */,
 				4CD51E1523D4531E009E238B /* ZPCaculateMaker.m in Sources */,
 				5E1EF23A24750E6E0017816B /* differentDirectionsVc.m in Sources */,
@@ -1260,6 +1289,7 @@
 				4C1812E7243ECC26002BE678 /* UIImage+SGImageSize.m in Sources */,
 				4C51572523CD6B9D007FEF90 /* UIScrollView+PopGesture.m in Sources */,
 				4C9027C82431CAE400A840E0 /* ZPBezierTestViewController.m in Sources */,
+				5E156841251F6F8D008A7501 /* ZPVipRecorderCell.m in Sources */,
 				4C8B750423BD95DA0061E4BF /* ZPUrlSessionDelegateViewController.m in Sources */,
 				4C1812F0243ECC81002BE678 /* ZPQRcodeViewController.m in Sources */,
 				4C51572A23CD6B9D007FEF90 /* UIPickerView+ZPmalPicker.m in Sources */,
@@ -1279,6 +1309,7 @@
 				4C51572923CD6B9D007FEF90 /* NSDate+LocalDate.m in Sources */,
 				4C51572623CD6B9D007FEF90 /* UITabBar+ZPDot.m in Sources */,
 				4CF1705F23ACD25B0000FF49 /* ZPDemoViewController.m in Sources */,
+				5E0C7BC7251B878E0087E448 /* ZPExcelViewController.m in Sources */,
 				4C14085723337E06009B9DEE /* ZPCustomAlertView.m in Sources */,
 				4C49555123CC52ED003A324B /* XMCenter.m in Sources */,
 				4CBC7ECA23A3788300655B65 /* HXCollectionViewLayout.m in Sources */,
@@ -1296,6 +1327,7 @@
 				5E48458524B6C77500047C92 /* UINavigationBar+handle.m in Sources */,
 				4C51573F23CD6BA7007FEF90 /* UIImage+image.m in Sources */,
 				4CC94C0A23B7299B00F15A20 /* ZPTreeTableViewCell.m in Sources */,
+				5E15683E251F27A9008A7501 /* ZPExcelCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

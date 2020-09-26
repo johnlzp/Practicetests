@@ -24,6 +24,7 @@
 #import "ZPQRcodeViewController.h"
 #import "differentDirectionsVc.h"
 #import "ViewController.h"
+#import "ZPExcelViewController.h"
 @interface ZPHomeTableViewController ()
 @property (nonatomic,strong)NSArray *array;
 @end
@@ -50,7 +51,8 @@
                    @"RunLoop",
                    @"贝塞尔曲线和水波动画",
                    @"QRCode",
-                   @"不同方向的弹窗"];
+                   @"不同方向的弹窗",
+                   @"Excel表格"];
 }
 
 #pragma mark - Table view data source
@@ -176,6 +178,12 @@
         case 16:
         {
             differentDirectionsVc *vc = [differentDirectionsVc new];
+            [self.navigationController pushViewController:vc animated:YES];
+        }
+            break;
+            case 17:
+        {
+            ZPExcelViewController *vc = [ZPExcelViewController new];
             [self.navigationController pushViewController:vc animated:YES];
         }
             
