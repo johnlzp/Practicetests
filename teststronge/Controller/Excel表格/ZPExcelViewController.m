@@ -65,17 +65,18 @@
 
 - (void)addUnJoinVipView{
     UIView *view = [[UIView alloc]initWithFrame:CGRectMake(12, 470, SCREEN_WIDTH - 24, 70)];
+    //[UIColor colorWithRed:0/255.0 green:0/255.0 blue:0/255.0 alpha:0.05]
     view.layer.shadowColor = [UIColor blackColor].CGColor;
     view.layer.shadowOffset = CGSizeMake(0,0);
     view.layer.shadowRadius = 4;
     view.layer.shadowOpacity = 1;
+    view.layer.cornerRadius = 4.0;
+    view.backgroundColor = [UIColor whiteColor];
     [self.view addSubview: view];
     UIView *subView = [[UIView alloc]initWithFrame:view.bounds];
     subView.layer.cornerRadius = 4.0;
-    subView.layer.masksToBounds = true;
-//    subView.backgroundColor = [UIColor blueColor];
-    [view addSubview:subView];
-//    [self addShadowToView:view withOpacity:1 shadowRadius:4 andCornerRadius:4.0];
+    subView.backgroundColor = [UIColor whiteColor];
+//    [view addSubview:subView];
     
 }
 
